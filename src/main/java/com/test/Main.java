@@ -10,8 +10,7 @@ public class Main {
     public static void main(String[] args) {
         int i;
         logger.debug("Hi its me in maven");
-        i = AdditionClass.add();
-        logger.debug("i  :" + i);
+        logger.debug("i  :" + AdditionClass.add());
         logger.debug("Hi its me in Second time in  maven  :"+new Date());
     }
 }
